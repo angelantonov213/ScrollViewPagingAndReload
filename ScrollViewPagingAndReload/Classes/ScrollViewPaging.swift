@@ -39,7 +39,7 @@ public protocol ScrollViewPaging: class {
     func nextPage(scrollView: UIScrollView, currentCount: Int)
 }
 
-extension ScrollViewPaging {
+public extension ScrollViewPaging {
     func nextPage(scrollView: UIScrollView, currentCount: Int) {
         // If all items are loaded don't try to load more.
         // If currently loading next page don't try to load again.

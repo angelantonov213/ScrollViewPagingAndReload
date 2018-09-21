@@ -34,7 +34,7 @@ public protocol ScrollViewReloadable: class {
     func reload(scrollOffset: CGFloat)
 }
 
-extension ScrollViewReloadable {
+public extension ScrollViewReloadable {
     func reload(scrollOffset: CGFloat) {
         if scrollOffset <= self.reloadOffset && self.reloadingStatus != .reloading {
             self.reloadingStatus = .reloading
