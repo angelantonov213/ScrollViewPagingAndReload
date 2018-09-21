@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScrollViewPagingAndReload'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Helper implementation for paging and reloading scroll views (UITableView, UIScrollView)'
 
 # This description is used to generate tags and improve search results.
