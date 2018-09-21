@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4A847A215516F600BA468A /* ScrollViewPagingAndReload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4A8479215516F600BA468A /* ScrollViewPagingAndReload.framework */; };
 		0DB738B4EF6D5D711E0BF2A2 /* Pods_ScrollViewPagingAndReload_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C09F553D7E197F2CA431957 /* Pods_ScrollViewPagingAndReload_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B4A8479215516F600BA468A /* ScrollViewPagingAndReload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ScrollViewPagingAndReload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		125296F31D7909539DFFF7CB /* Pods-ScrollViewPagingAndReload_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewPagingAndReload_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollViewPagingAndReload_Example/Pods-ScrollViewPagingAndReload_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1A20AC696978D9D77D64C46E /* Pods-ScrollViewPagingAndReload_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewPagingAndReload_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollViewPagingAndReload_Tests/Pods-ScrollViewPagingAndReload_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		462C1DCA0A32ADCB32FBF390 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4A847A215516F600BA468A /* ScrollViewPagingAndReload.framework in Frameworks */,
 				A40D5F6B621C5C19CE50BB70 /* Pods_ScrollViewPagingAndReload_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +75,7 @@
 		4D1A9848DB490D72DFD36AEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0B4A8479215516F600BA468A /* ScrollViewPagingAndReload.framework */,
 				B299BE1A530AAA1BAB5C8E48 /* Pods_ScrollViewPagingAndReload_Example.framework */,
 				5C09F553D7E197F2CA431957 /* Pods_ScrollViewPagingAndReload_Tests.framework */,
 			);

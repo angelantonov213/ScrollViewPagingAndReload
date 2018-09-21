@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		014B2A2FEF9CD8BD22742C48CE4281B4 /* Pods-ScrollViewPagingAndReload_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D8E3461B6F13924F0D603893B50DB1 /* Pods-ScrollViewPagingAndReload_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B4A847421550DF400BA468A /* ScrollViewPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A847121550DF400BA468A /* ScrollViewPaging.swift */; };
-		0B4A847621550DF400BA468A /* ScrollViewReloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A847321550DF400BA468A /* ScrollViewReloadable.swift */; };
+		25B738366E00AFFB6CB4CFDD5F574638 /* ScrollViewPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A6E581D554F1AFC646DE5B2685197 /* ScrollViewPaging.swift */; };
+		29CA68C6F5A112A810A20AD17363CBF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		3CBA989892117B50B6A6E146D0919268 /* Pods-ScrollViewPagingAndReload_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DA7FEE895A6B80E81F3A2AAA88E50F /* Pods-ScrollViewPagingAndReload_Tests-dummy.m */; };
-		4E6F1AB186A42CC436880554294B9F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4E6F1AB186A42CC436880554294B9F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		7E50DB26301860806FD5AD359CE8603B /* Pods-ScrollViewPagingAndReload_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B09C1C4D545426F7DEE2D20EF39A9A /* Pods-ScrollViewPagingAndReload_Example-dummy.m */; };
-		81AE0E82EF27AF447B11BB9CA20F5743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		BDBAE82EF57223FB88BE0D5D7366F061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		BE4BD4D56256C27AC6894FCB9806EED0 /* ScrollViewPagingAndReload-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CC7B9FEA8E91692D590094CE0CA861 /* ScrollViewPagingAndReload-dummy.m */; };
-		DC71745B30A47F9C5FA7F56F9982C31A /* ScrollViewPagingAndReload-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1A4395898791369DCD4B7F675070E9 /* ScrollViewPagingAndReload-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9838D550AFB0492838EEC1433D7BEA21 /* ScrollViewPagingAndReload-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C11A06A675ADE06085D1F18442FC7C /* ScrollViewPagingAndReload-dummy.m */; };
+		BDBAE82EF57223FB88BE0D5D7366F061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		DC71745B30A47F9C5FA7F56F9982C31A /* ScrollViewPagingAndReload-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD477F8A7BF3EBC7AE6D070C92C10A89 /* ScrollViewPagingAndReload-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E46CEF51AFD7378024C47F7A855D3866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		F2467961D9313437A44E1C14FB1DB47A /* ScrollViewReloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6004843539F5FE532F125685AE382CC1 /* ScrollViewReloadable.swift */; };
 		F3E30EB836BF1855BCBC20C564EC0642 /* Pods-ScrollViewPagingAndReload_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E48EA03EC0F9B2CE2545C6086289D5 /* Pods-ScrollViewPagingAndReload_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,41 +40,42 @@
 
 /* Begin PBXFileReference section */
 		004D8199B27015C53ED9F4053B4C9B83 /* Pods-ScrollViewPagingAndReload_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollViewPagingAndReload_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		06369E33F8DE8D19EB6DF86D799C3EFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B4A847121550DF400BA468A /* ScrollViewPaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewPaging.swift; sourceTree = "<group>"; };
-		0B4A847321550DF400BA468A /* ScrollViewReloadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewReloadable.swift; sourceTree = "<group>"; };
 		0E820B07C41542B53F35D8264F09A30C /* Pods-ScrollViewPagingAndReload_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollViewPagingAndReload_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		111810C29062C0A6DA2429EC5FA5ADDA /* Pods-ScrollViewPagingAndReload_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollViewPagingAndReload_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2778EFC1E87EC1FDF25DB24E438544FA /* Pods-ScrollViewPagingAndReload_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollViewPagingAndReload_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		27BDBF22BBA436536A36FB3FF93C027A /* Pods_ScrollViewPagingAndReload_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollViewPagingAndReload_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BDBF22BBA436536A36FB3FF93C027A /* Pods_ScrollViewPagingAndReload_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollViewPagingAndReload_Tests.framework; path = "Pods-ScrollViewPagingAndReload_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC5E30CEC6BC4554B9B6B5264970A26 /* Pods-ScrollViewPagingAndReload_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollViewPagingAndReload_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2CB1B18526964C6D34C0786B78143A1A /* Pods-ScrollViewPagingAndReload_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScrollViewPagingAndReload_Example.modulemap"; sourceTree = "<group>"; };
 		3A9D9DE6F973176A15267E3AD736B37E /* Pods-ScrollViewPagingAndReload_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollViewPagingAndReload_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		45D50C49BA3D2F807633A7ACD23DAEFF /* ScrollViewPagingAndReload-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollViewPagingAndReload-prefix.pch"; sourceTree = "<group>"; };
+		48C11A06A675ADE06085D1F18442FC7C /* ScrollViewPagingAndReload-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollViewPagingAndReload-dummy.m"; sourceTree = "<group>"; };
 		495167B670B7C7543A70E15E04412821 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		60E41E21D6C667E8F14DC4E79DE3365C /* Pods_ScrollViewPagingAndReload_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollViewPagingAndReload_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCA8D7083777F9716124CC6B71BF012 /* ScrollViewPagingAndReload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollViewPagingAndReload.modulemap; sourceTree = "<group>"; };
+		6004843539F5FE532F125685AE382CC1 /* ScrollViewReloadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollViewReloadable.swift; path = ScrollViewPagingAndReload/Classes/ScrollViewReloadable.swift; sourceTree = "<group>"; };
+		60E41E21D6C667E8F14DC4E79DE3365C /* Pods_ScrollViewPagingAndReload_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollViewPagingAndReload_Example.framework; path = "Pods-ScrollViewPagingAndReload_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B09C1C4D545426F7DEE2D20EF39A9A /* Pods-ScrollViewPagingAndReload_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollViewPagingAndReload_Example-dummy.m"; sourceTree = "<group>"; };
 		6897EEC2DD3E763FF357777D7AD72E9F /* Pods-ScrollViewPagingAndReload_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScrollViewPagingAndReload_Tests.modulemap"; sourceTree = "<group>"; };
-		6F1A4395898791369DCD4B7F675070E9 /* ScrollViewPagingAndReload-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollViewPagingAndReload-umbrella.h"; sourceTree = "<group>"; };
-		77E526AB4BF8BB12D84967CC86A8BBA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		794988AE35A8EEE6D648A81A0A759EF4 /* ScrollViewPagingAndReload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollViewPagingAndReload.modulemap; sourceTree = "<group>"; };
+		7384E8EEF497D3F33202CDBD29E1AD86 /* ScrollViewPagingAndReload.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ScrollViewPagingAndReload.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7FBCF26496575A49F99BEFA164A77471 /* Pods-ScrollViewPagingAndReload_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollViewPagingAndReload_Example.release.xcconfig"; sourceTree = "<group>"; };
-		89CC7B9FEA8E91692D590094CE0CA861 /* ScrollViewPagingAndReload-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollViewPagingAndReload-dummy.m"; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		933BBE19A5211508307C500CF1CE9515 /* Pods-ScrollViewPagingAndReload_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollViewPagingAndReload_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		965DED3D84C03E28789E9139E9A9A76D /* ScrollViewPagingAndReload.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollViewPagingAndReload.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D0267157FE4D175C7316E933E21C5CD /* ScrollViewPagingAndReload-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollViewPagingAndReload-prefix.pch"; sourceTree = "<group>"; };
 		9F11876E6AD259522F83B245FC4400E9 /* Pods-ScrollViewPagingAndReload_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollViewPagingAndReload_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A11E45A6A577DC4E24F1EF5DEA5E862B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9DBD144746263E356025AE42EAB3729 /* Pods-ScrollViewPagingAndReload_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollViewPagingAndReload_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4A104E8DED644D8594804A8886E5FE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5E48EA03EC0F9B2CE2545C6086289D5 /* Pods-ScrollViewPagingAndReload_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollViewPagingAndReload_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C8FB3B4727F7E9298BEAACC85BCBEFE9 /* ScrollViewPagingAndReload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScrollViewPagingAndReload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C8FB3B4727F7E9298BEAACC85BCBEFE9 /* ScrollViewPagingAndReload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollViewPagingAndReload.framework; path = ScrollViewPagingAndReload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5FCA94E974F18DE52D85EADC4ABAEB /* Pods-ScrollViewPagingAndReload_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollViewPagingAndReload_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E7105D36B1DBA7CB5F3E060FDB440F42 /* ScrollViewPagingAndReload.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ScrollViewPagingAndReload.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD477F8A7BF3EBC7AE6D070C92C10A89 /* ScrollViewPagingAndReload-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollViewPagingAndReload-umbrella.h"; sourceTree = "<group>"; };
+		D91551C7763F628342EE05F35E6E092D /* ScrollViewPagingAndReload.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollViewPagingAndReload.xcconfig; sourceTree = "<group>"; };
+		DB9BEF039D50CCB50464DC5556E6325A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E7D8E3461B6F13924F0D603893B50DB1 /* Pods-ScrollViewPagingAndReload_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollViewPagingAndReload_Example-umbrella.h"; sourceTree = "<group>"; };
 		EF670BE921BC7CD539539664A95AC4C5 /* Pods-ScrollViewPagingAndReload_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollViewPagingAndReload_Tests-resources.sh"; sourceTree = "<group>"; };
 		F1DA7FEE895A6B80E81F3A2AAA88E50F /* Pods-ScrollViewPagingAndReload_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollViewPagingAndReload_Tests-dummy.m"; sourceTree = "<group>"; };
-		FECE3F21C1C0DE415973C1EE81C75CD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F6F5E6C2CE2D398E1A41F8F6FEE8CA15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FF0A6E581D554F1AFC646DE5B2685197 /* ScrollViewPaging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollViewPaging.swift; path = ScrollViewPagingAndReload/Classes/ScrollViewPaging.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FAEDF14FA9015D6ED673388B51D3BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CA68C6F5A112A810A20AD17363CBF8 /* Foundation.framework in Frameworks */,
+				E46CEF51AFD7378024C47F7A855D3866 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDAC18FE6AC4A12EF627EDE7DFC191B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,44 +104,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC02340C5EF4E7FD3F6553E1F2687F2F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81AE0E82EF27AF447B11BB9CA20F5743 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B4A847021550DF400BA468A /* Classes */ = {
+		0C180B232C3528BD4B389622D70334E0 /* ScrollViewPagingAndReload */ = {
 			isa = PBXGroup;
 			children = (
-				0B4A847121550DF400BA468A /* ScrollViewPaging.swift */,
-				0B4A847321550DF400BA468A /* ScrollViewReloadable.swift */,
-			);
-			name = Classes;
-			path = ScrollViewPagingAndReload/Classes;
-			sourceTree = "<group>";
-		};
-		0BE1CA27611EA60995B143CA79946690 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				223666EA6037DA9C6CC3DC8C9925B39A /* ScrollViewPagingAndReload */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		223666EA6037DA9C6CC3DC8C9925B39A /* ScrollViewPagingAndReload */ = {
-			isa = PBXGroup;
-			children = (
-				0B4A847021550DF400BA468A /* Classes */,
-				555B796CE2D0FDB8515936E8B1BC25FA /* Pod */,
-				8C4AD16B55AAEB0F9877FCB623F659DA /* Support Files */,
+				FF0A6E581D554F1AFC646DE5B2685197 /* ScrollViewPaging.swift */,
+				6004843539F5FE532F125685AE382CC1 /* ScrollViewReloadable.swift */,
+				1E14DC1476067159A1878A92EF413635 /* Pod */,
+				0FEB2DEC3644732C9E92487093557FAC /* Support Files */,
 			);
 			name = ScrollViewPagingAndReload;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		0FEB2DEC3644732C9E92487093557FAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A11E45A6A577DC4E24F1EF5DEA5E862B /* Info.plist */,
+				4DCA8D7083777F9716124CC6B71BF012 /* ScrollViewPagingAndReload.modulemap */,
+				D91551C7763F628342EE05F35E6E092D /* ScrollViewPagingAndReload.xcconfig */,
+				48C11A06A675ADE06085D1F18442FC7C /* ScrollViewPagingAndReload-dummy.m */,
+				9D0267157FE4D175C7316E933E21C5CD /* ScrollViewPagingAndReload-prefix.pch */,
+				CD477F8A7BF3EBC7AE6D070C92C10A89 /* ScrollViewPagingAndReload-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ScrollViewPagingAndReload";
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1E14DC1476067159A1878A92EF413635 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BEF039D50CCB50464DC5556E6325A /* LICENSE */,
+				F6F5E6C2CE2D398E1A41F8F6FEE8CA15 /* README.md */,
+				7384E8EEF497D3F33202CDBD29E1AD86 /* ScrollViewPagingAndReload.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2BD111CEC5CC567049C3F3055A3D0C0B /* Pods-ScrollViewPagingAndReload_Example */ = {
@@ -151,6 +170,14 @@
 			path = "Target Support Files/Pods-ScrollViewPagingAndReload_Example";
 			sourceTree = "<group>";
 		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		53109F576BCF46D98D34FF251DF67AED /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,24 +186,6 @@
 				C8FB3B4727F7E9298BEAACC85BCBEFE9 /* ScrollViewPagingAndReload.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		555B796CE2D0FDB8515936E8B1BC25FA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FECE3F21C1C0DE415973C1EE81C75CD5 /* LICENSE */,
-				77E526AB4BF8BB12D84967CC86A8BBA1 /* README.md */,
-				E7105D36B1DBA7CB5F3E060FDB440F42 /* ScrollViewPagingAndReload.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		7A61DEAD89D0C6A852C7EE15DC9A81F3 /* Targets Support Files */ = {
@@ -192,8 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0BE1CA27611EA60995B143CA79946690 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BEB0E3CCE2BE30B0428B3C520CF2F910 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				53109F576BCF46D98D34FF251DF67AED /* Products */,
 				7A61DEAD89D0C6A852C7EE15DC9A81F3 /* Targets Support Files */,
 			);
@@ -217,26 +226,12 @@
 			path = "Target Support Files/Pods-ScrollViewPagingAndReload_Tests";
 			sourceTree = "<group>";
 		};
-		8C4AD16B55AAEB0F9877FCB623F659DA /* Support Files */ = {
+		BEB0E3CCE2BE30B0428B3C520CF2F910 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06369E33F8DE8D19EB6DF86D799C3EFF /* Info.plist */,
-				794988AE35A8EEE6D648A81A0A759EF4 /* ScrollViewPagingAndReload.modulemap */,
-				965DED3D84C03E28789E9139E9A9A76D /* ScrollViewPagingAndReload.xcconfig */,
-				89CC7B9FEA8E91692D590094CE0CA861 /* ScrollViewPagingAndReload-dummy.m */,
-				45D50C49BA3D2F807633A7ACD23DAEFF /* ScrollViewPagingAndReload-prefix.pch */,
-				6F1A4395898791369DCD4B7F675070E9 /* ScrollViewPagingAndReload-umbrella.h */,
+				0C180B232C3528BD4B389622D70334E0 /* ScrollViewPagingAndReload */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ScrollViewPagingAndReload";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +269,8 @@
 			buildConfigurationList = DF8612C1FDFDE97BA9AFBF80952BCE20 /* Build configuration list for PBXNativeTarget "ScrollViewPagingAndReload" */;
 			buildPhases = (
 				191C41AE192C0EACC1A673E693860E49 /* Headers */,
-				3DACFEAA9635E17707487DCF17A43816 /* Sources */,
-				DC02340C5EF4E7FD3F6553E1F2687F2F /* Frameworks */,
+				0DD8DDD7AC882A8B942A4A4DBDDE43BC /* Sources */,
+				9FAEDF14FA9015D6ED673388B51D3BF5 /* Frameworks */,
 				0229B0A74FEF7348BF07767018C51CEE /* Resources */,
 			);
 			buildRules = (
@@ -333,11 +328,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					0E34ABFFA4601E65D61E281B193BC4FD = {
-						LastSwiftMigration = 1000;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -391,21 +381,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0DD8DDD7AC882A8B942A4A4DBDDE43BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B738366E00AFFB6CB4CFDD5F574638 /* ScrollViewPaging.swift in Sources */,
+				9838D550AFB0492838EEC1433D7BEA21 /* ScrollViewPagingAndReload-dummy.m in Sources */,
+				F2467961D9313437A44E1C14FB1DB47A /* ScrollViewReloadable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35382447967A3C0DE631A23B4D208F41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4A847621550DF400BA468A /* ScrollViewReloadable.swift in Sources */,
 				7E50DB26301860806FD5AD359CE8603B /* Pods-ScrollViewPagingAndReload_Example-dummy.m in Sources */,
-				0B4A847421550DF400BA468A /* ScrollViewPaging.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DACFEAA9635E17707487DCF17A43816 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE4BD4D56256C27AC6894FCB9806EED0 /* ScrollViewPagingAndReload-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +417,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1962401FC2DBD0AB7ABC592DA6965EE3 /* Release */ = {
+		10A86CDF4018A82B4DF8A3EC6E4D5CFE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 965DED3D84C03E28789E9139E9A9A76D /* ScrollViewPagingAndReload.xcconfig */;
+			baseConfigurationReference = D91551C7763F628342EE05F35E6E092D /* ScrollViewPagingAndReload.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -451,7 +441,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -494,38 +485,6 @@
 			};
 			name = Release;
 		};
-		31D867FB53B53A63D08E3E8EF4F15766 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 965DED3D84C03E28789E9139E9A9A76D /* ScrollViewPagingAndReload.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ScrollViewPagingAndReload/ScrollViewPagingAndReload-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ScrollViewPagingAndReload/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ScrollViewPagingAndReload/ScrollViewPagingAndReload.modulemap";
-				PRODUCT_MODULE_NAME = ScrollViewPagingAndReload;
-				PRODUCT_NAME = ScrollViewPagingAndReload;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		510FE16C9338C4E537358121E2F58778 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7FBCF26496575A49F99BEFA164A77471 /* Pods-ScrollViewPagingAndReload_Example.release.xcconfig */;
@@ -553,7 +512,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -647,6 +607,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CD06B141404CBCDADEF1D27E6294870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91551C7763F628342EE05F35E6E092D /* ScrollViewPagingAndReload.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollViewPagingAndReload/ScrollViewPagingAndReload-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollViewPagingAndReload/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollViewPagingAndReload/ScrollViewPagingAndReload.modulemap";
+				PRODUCT_MODULE_NAME = ScrollViewPagingAndReload;
+				PRODUCT_NAME = ScrollViewPagingAndReload;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -785,8 +777,8 @@
 		DF8612C1FDFDE97BA9AFBF80952BCE20 /* Build configuration list for PBXNativeTarget "ScrollViewPagingAndReload" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31D867FB53B53A63D08E3E8EF4F15766 /* Debug */,
-				1962401FC2DBD0AB7ABC592DA6965EE3 /* Release */,
+				6CD06B141404CBCDADEF1D27E6294870 /* Debug */,
+				10A86CDF4018A82B4DF8A3EC6E4D5CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
