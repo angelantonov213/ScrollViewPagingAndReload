@@ -1,0 +1,6 @@
+framework module ScrollViewPagingAndReload {
+  umbrella header "ScrollViewPagingAndReload-umbrella.h"
+
+  export *
+  module * { export * }
+}

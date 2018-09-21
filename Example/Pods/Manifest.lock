@@ -1,0 +1,16 @@
+PODS:
+  - ScrollViewPagingAndReload (0.1.0)
+
+DEPENDENCIES:
+  - ScrollViewPagingAndReload (from `../`)
+
+EXTERNAL SOURCES:
+  ScrollViewPagingAndReload:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScrollViewPagingAndReload: 3310b2c1e27b0a76a82706daf141115440b723d8
+
+PODFILE CHECKSUM: 9af343448bcd7c5b8952148bef1603d79888244d
+
+COCOAPODS: 1.5.3
