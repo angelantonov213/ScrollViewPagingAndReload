@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ScrollViewPagingAndReload_Example' do
+  pod 'ScrollViewPagingAndReload', :path => '../'
+
+  target 'ScrollViewPagingAndReload_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
