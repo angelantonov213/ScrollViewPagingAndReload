@@ -22,7 +22,7 @@ pod 'ScrollViewPagingAndReload'
 
 ## Author
 
-Angel, angel.antonov@bulpos.com
+Angel, angel.antonov213@gmail.com
 
 ## License
 
